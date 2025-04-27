@@ -13,9 +13,6 @@
 
   <h3 align="center">Travel Website</h3>
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -30,9 +27,7 @@
 
 ## 🚨 Tutorial
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
 
 <a href="https://youtu.be/cuzw4vL1z5E?feature=shared" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
@@ -348,103 +343,4 @@ body {
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
-.hide-scrollbar::-webkit-scrollbar {
-  display: none;
-}
 
-/* Hide scrollbar for IE, Edge and Firefox */
-.hide-scrollbar {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
-```
-
-</details>
-
-<details>
-<summary><code>tailwind.config.ts</code></summary>
-
-```typescript
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
-  theme: {
-    extend: {
-      colors: {
-        green: {
-          50: '#30AF5B',
-          90: '#292C27',
-        },
-        gray: {
-          10: '#EEEEEE',
-          20: '#A2A2A2',
-          30: '#7B7B7B',
-          50: '#585858',
-          90: '#141414',
-        },
-        orange: {
-          50: '#FF814C',
-        },
-        blue: {
-          70: '#021639',
-        },
-        yellow: {
-          50: '#FEC601',
-        },
-      },
-      backgroundImage: {
-        'bg-img-1': "url('/img-1.png')",
-        'bg-img-2': "url('/img-2.png')",
-        'feature-bg': "url('/feature-bg.png')",
-        pattern: "url('/pattern.png')",
-        'pattern-2': "url('/pattern-bg.png')",
-      },
-      screens: {
-        xs: '400px',
-        '3xl': '1680px',
-        '4xl': '2200px',
-      },
-      maxWidth: {
-        '10xl': '1512px',
-      },
-      borderRadius: {
-        '5xl': '40px',
-      },
-    },
-  },
-  plugins: [],
-};
-```
-
-</details>
-
-## <a name="links">🔗 Links</a>
-
-Assets used in the project are here [here](https://drive.google.com/file/d/10bwdMeLAl7scTjrorqtG3v2Z6b4b7S-w/view?usp=sharing)
-
-## <a name="more">🚀 More</a>
-
-**Advance your skills with Next.js 14 Pro Course**
-
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://jsmastery.pro/next14" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/557837ce-f612-4530-ab24-189e75133c71" alt="Project Banner">
-</a>
-
-<br />
-<br />
-
-**Accelerate your professional journey with the Expert Training program**
-
-And if you're hungry for more than just a course and want to understand how we learn and tackle tech challenges, hop into our personalized masterclass. We cover best practices, different web skills, and offer mentorship to boost your confidence. Let's learn and grow together!
-
-<a href="https://www.jsmastery.pro/masterclass" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/fed352ad-f27b-400d-9b8f-c7fe628acb84" alt="Project Banner">
-</a>
-
-#
